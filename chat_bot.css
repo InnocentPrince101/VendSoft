@@ -1,0 +1,136 @@
+body {
+    height: 100vh;
+    font-family: monospace;
+    background-color: rgba(92, 241, 92, 0.664);
+}
+
+.container {
+    background-color: green;
+    position: fixed;
+    left: 350px;
+    width: 700px;
+    border-radius: 8px;
+    padding: 8px 8px;
+    height: 95%;
+    overflow: visible;
+}
+#my_message{
+    height: 89%;
+    overflow-y: scroll;
+}
+h1 a {
+    text-align: center;
+    padding: 8px 8px;
+    margin-top: 0;
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    background-color: rgba(92, 241, 92, 0.664);
+    width: 150px;
+    position: relative;
+    left: 500px;
+    bottom: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    position: fixed;
+    border-color: rgba(92, 241, 92, 0.664);
+    width: 680px;
+    top: 73px;
+    left: 360px;
+}
+
+section {
+    display: flex;
+    position: fixed;
+    bottom: 625px;
+}
+
+img {
+    height: 50px;
+    padding: 0 13px;
+}
+
+h2 {
+    padding: 8px 8px;
+    color: white;
+    background-color: rgba(92, 241, 92, 0.664);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: fixed;
+    left: 430px;
+    bottom: 620px;
+}
+
+#text {
+    position: fixed;
+    bottom: 15px;
+    height: 25px;
+    width: 600px;
+    padding-left: 13px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-style: solid;
+}
+
+#send {
+    position: fixed;
+    bottom: 15px;
+    left: 980px;
+    height: 25px;
+    width: 75px;
+    padding-left: 13px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    font-family: monospace;
+    font-weight: bolder;
+    padding-left: 0;
+    font-size: larger;
+    background-color: rgba(92, 241, 92, 0.664);
+    border-color: rgba(92, 241, 92, 0.664);
+    color: white;
+}
+
+.my_message, #me {
+    margin-top: -40px;
+    margin-left: 500px;
+    background-color: rgba(92, 241, 92, 0.664);
+    padding: 4px 8px;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    font-weight: bold;
+    font-size: larger;
+    width: 180px;
+    color: rgba(0, 0, 0, 0.815);
+    height: 50px;
+}
+
+.in_message {
+    background-color: rgba(92, 241, 92, 0.664);
+    padding: 4px 8px;
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    font-weight: bold;
+    font-size: larger;
+    width: 180px;
+    height: 150px;
+    color: rgba(0, 0, 0, 0.815);
+}
+
+ul {
+    position: relative;
+    bottom: 100px;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 0;
+}
+
+#me {
+    text-align: right;
+}
